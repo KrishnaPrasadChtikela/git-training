@@ -34,7 +34,7 @@ public class CodePractise {
 	    HashMap<String, Integer> hashmap = new HashMap<String, Integer>();
 	    for(String str2 : str1){
 	        
-	    	hashmap.put( str2,str2.indexOf('c'));
+	    	hashmap.put( str2,str2.length());
 	    }
        
 		return hashmap;
